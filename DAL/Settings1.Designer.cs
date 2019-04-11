@@ -12,7 +12,7 @@ namespace DAL {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.0.1.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.0.0.0")]
     internal sealed partial class Settings1 : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings1 defaultInstance = ((Settings1)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings1())));
@@ -34,7 +34,9 @@ namespace DAL {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=LaFidelitas;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Server=tcp:progravtest.database.windows.net,1433;Initial Catalog=LaFidelitas;Pers" +
+            "ist Security Info=False;User ID=administrador;Password=Mimeca17;MultipleActiveRe" +
+            "sultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;")]
         public string Connection {
             get {
                 return ((string)(this["Connection"]));
