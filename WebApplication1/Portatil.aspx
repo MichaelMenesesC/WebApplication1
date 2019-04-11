@@ -14,7 +14,7 @@
                 <td class="auto-style2">
                     <asp:DropDownList ID="DropDownList5" runat="server" DataSourceID="SqlDataSource1" DataTextField="id" DataValueField="id">
                     </asp:DropDownList>
-                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:LaFidelitasConnectionString %>" SelectCommand="SELECT [id] FROM [Portatil]"></asp:SqlDataSource>
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConexionAzure %>" SelectCommand="SELECT [id] FROM [Portatil]"></asp:SqlDataSource>
                 </td>
                 <td>
                     <asp:Label ID="Label4" runat="server" Text="Marca"></asp:Label>
